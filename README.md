@@ -15,15 +15,6 @@ Bu proje, **Raspberry Pi** üzerinde çalışan bir Python uygulaması ile **DHT
 - 📡 **MQTT (Paho MQTT + Mosquitto Broker)** – Yerel haberleşme protokolü
 - ☁️ **AWS IoT Core** – MQTT üzerinden bulut tabanlı veri gönderimi ve işlenmesi
 - 🛡️ **AWS Sertifikaları (.pem/.key)** – Güvenli MQTT bağlantısı için kimlik doğrulama
-- 🖼️ **Graphviz** / mimari diyagramlar – Sistem akışını açıklayan şema
-
----
-
-## 🧩 Sistem Mimarisi
-
-Aşağıdaki görsel, veri akışını sensörlerden buluta kadar olan tüm süreciyle gösterir:
-
-📷 `bulutbilişim-proje.jpeg` dosyasına göz atabilirsiniz.
 
 ---
 
@@ -33,14 +24,6 @@ Aşağıdaki görsel, veri akışını sensörlerden buluta kadar olan tüm sür
 |------------------------|--------------------------------------------------------------------------|
 | `example2.py`          | DHT11'den sıcaklık ve nem verisi alır, verileri InfluxDB ve AWS MQTT ile iletir. |
 | `okuyucu.py`           | PZEM-004T modülünden elektriksel verileri (akım, voltaj vb.) alır ve gönderir.   |
-| `requirements.txt`     | Proje için gerekli olan tüm Python bağımlılıklarını içerir.              |
-| `bulutbilişim-proje.jpeg` | Mimari tasarımı içeren sistem şeması.                                      |
+| `requirements.txt`     | Proje için gerekli olan tüm Python bağımlılıklarını içerir.              |                                    |
 | `/certs/`              | AWS IoT Core için gerekli olan güvenlik sertifikalarının saklandığı dizin.   |
 
----
-
-## ⚙️ Kurulum Adımları
-
-1. Python bağımlılıklarını yükleyin:
-   ```bash
-   pip install -r requirements.txt
