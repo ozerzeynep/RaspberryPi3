@@ -27,3 +27,9 @@ Bu proje, **Raspberry Pi** üzerinde çalışan bir Python uygulaması ile **DHT
 | `requirements.txt`     | Proje için gerekli olan tüm Python bağımlılıklarını içerir.              |                                    |
 | `/certs/`              | AWS IoT Core için gerekli olan güvenlik sertifikalarının saklandığı dizin.   |
 
+
+## 🧩 Sistem Mimarisi
+
+Aşağıdaki görsel, sensörlerden buluta kadar olan veri akışını göstermektedir:
+
+![Sistem Şeması](bulutbilisim.jpeg)
