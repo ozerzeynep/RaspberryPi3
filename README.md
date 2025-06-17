@@ -32,4 +32,4 @@ Bu proje, **Raspberry Pi** üzerinde çalışan bir Python uygulaması ile **DHT
 
 Aşağıdaki görsel, sensörlerden buluta kadar olan veri akışını göstermektedir:
 
-![Sistem Şeması](picture.jpeg)
+![Sistem Şeması](picture.jpg)
