@@ -34,7 +34,7 @@ Aşağıdaki görsel, sensörlerden buluta kadar olan veri akışını gösterme
 
 ![Sistem Şeması](picture.jpg)
 
-![Sistem Şeması](bildiri-Page-1.drawio.png)
+![Sistem Şeması](bildiriGörseli.png)
 
 ![Sistem Şeması](cirkitDesigner.jpeg)
 
