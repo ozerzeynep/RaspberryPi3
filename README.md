@@ -33,4 +33,7 @@ Bu proje, **Raspberry Pi** üzerinde çalışan bir Python uygulaması ile **DHT
 Aşağıdaki görsel, sensörlerden buluta kadar olan veri akışını göstermektedir:
 
 ![Sistem Şeması](picture.jpg)
+
 ![Sistem Şeması](bildiri-Page-1.drawio.png)
+
+![Sistem Şeması](cirkitDesigner.jpeg)
