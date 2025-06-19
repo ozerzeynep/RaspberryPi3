@@ -37,3 +37,5 @@ Aşağıdaki görsel, sensörlerden buluta kadar olan veri akışını gösterme
 ![Sistem Şeması](bildiri-Page-1.drawio.png)
 
 ![Sistem Şeması](cirkitDesigner.jpeg)
+
+![Sistem Şeması](raspberryPi3-pinout.png)
